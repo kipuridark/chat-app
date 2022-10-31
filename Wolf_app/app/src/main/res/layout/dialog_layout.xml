@@ -12,7 +12,7 @@
         android:layout_height="@dimen/_35sdp"
         android:layout_gravity="center"
         android:src="@drawable/off"
-        android:layout_marginTop="@dimen/_10sdp"    />
+        android:layout_marginTop="@dimen/_10sdp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -21,5 +21,10 @@
         android:fontFamily="@font/spartan_regular_400"
         android:textSize="@dimen/_16sdp"
         android:text="Are you sure out the screen? \n Log Out"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
 
 </RelativeLayout>
